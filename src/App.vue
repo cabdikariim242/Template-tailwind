@@ -1,30 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="flex flex-col justify-center items-center">  
+    <nav class="flex gap-4 mt-4">
+      <router-link  class="bg-blue-500 ml-4 py-1 px-4 font-[500] text-[20px]  text-white" to="/">Home</router-link>
+      <router-link  class="bg-blue-500 py-1 px-4  text-white font-[500] text-[20px]" to="/about">About</router-link>
+    </nav>
+    <h1 class="mt-5 font-bold text-2xl text-center text-blue-300">this is the father of vue</h1>
+
+    <router-view/>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
+<style scoped>
+.router-link-exact-active {
+  color: blue;
+  background-color: red;
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
