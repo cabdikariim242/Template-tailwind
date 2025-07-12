@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full transition-all duration-300 ease-in-out ">
+  <div class="flex flex-col w-full ">
     <div
       class="flex w-full h-20 lg:hidden md:hidden bg-black text-white justify-between items-center"
     >

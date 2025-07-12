@@ -3,7 +3,7 @@
   <div class="flex flex-col justify-center  items-center">
    <navbar :isopen="isopen" @toggle-this="toggle" />
 <sidebar :isopen="isopen" @toggle-this="toggle" />
-
+<content/>
   </div>
 </template>
 
@@ -11,8 +11,9 @@
 <script>
 import sidebar from './components/sidebar.vue'
 import navbar from './components/navbar.vue'
+import content from './components/content.vue'
 export default {
-  components: {sidebar, navbar},
+  components: {sidebar, navbar,content},
   data(){
     return{
      isopen: true
@@ -27,8 +28,6 @@ export default {
 </script>
 
 <style >
-body{
-}
 .router-link-exact-active {
   color: blue;
   background-color: red;
