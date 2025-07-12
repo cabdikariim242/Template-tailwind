@@ -8,14 +8,14 @@
     </div>
 
     <!-- content section -->
-    <div  class="flex lg:ml-[310px] md:ml-[310px] transition-all duration-300 ease-in-out ml-5 tran justify-between mx-5 mt-6 bg-blue-300">
+    <div  class="flex lg:ml-[270px] md:ml-[270px] transition-all duration-300 ease-in-out ml-5 tran justify-between mx-5 mt-6 ">
       <div>
-        <h1>JEANS</h1>
+        <h1 class="text-[30px] ">Jeans</h1>
       </div>
 
-      <div>
-        <i  class="fa-solid fa-cart-shopping"></i>
-        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+      <div class="">
+        <i  class="fa-solid fa-cart-shopping text-[20px] mr-5"></i>
+        <i class="fa-solid fa-magnifying-glass text-[20px]" style="color: #000000"></i>
       </div>
     </div>
   </div>
